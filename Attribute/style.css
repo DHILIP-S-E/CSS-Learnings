@@ -1,0 +1,37 @@
+/* Select all elements with the 'href' attribute */
+a[href] {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Select links with a specific href value */
+a[href="https://www.example.com"] {
+  color: green;
+}
+
+/* Select links with href containing 'example' */
+a[href*="example"] {
+  font-weight: bold;
+}
+
+/* Select input elements with a name attribute that contains 'name' */
+input[name*="name"] {
+  background-color: lightyellow;
+}
+
+/* Select buttons with a data-action attribute starting with 'submit' */
+button[data-action^="submit"] {
+  background-color: lightgreen;
+  color: white;
+}
+
+/* Select buttons with a data-action attribute ending with 'cancel' */
+button[data-action$="cancel"] {
+  background-color: lightcoral;
+  color: white;
+}
+
+/* Select inputs whose placeholder text contains 'email' */
+input[placeholder*="email"] {
+  border: 2px solid orange;
+}

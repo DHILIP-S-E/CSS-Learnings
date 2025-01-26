@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* No Padding */
+.none {
+  background-color: #f4f4f4;
+  padding: 0; /* No padding */
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Small Padding */
+.small {
+  background-color: #e7f3fe;
+  padding: 10px; /* 10px padding on all sides */
+  border: 1px solid #0099ff;
+  margin-bottom: 10px;
+}
+
+/* Large Padding */
+.big {
+  background-color: #ffe4e1;
+  padding: 30px; /* 30px padding on all sides */
+  border: 1px solid #ff6347;
+  margin-bottom: 10px;
+}
+
+/* Padding on Top Only */
+.top {
+  background-color: #d3ffd3;
+  padding: 20px 0 0 0; /* 20px padding on top, 0 on other sides */
+  border: 1px solid #32cd32;
+  margin-bottom: 10px;
+}
+
+/* Padding on Left and Right Only */
+.side {
+  background-color: #fff9c4;
+  padding: 0 20px; /* 20px padding on left and right, 0 on top and bottom */
+  border: 1px solid #ffeb3b;
+  margin-bottom: 10px;
+}

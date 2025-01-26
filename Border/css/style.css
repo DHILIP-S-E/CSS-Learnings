@@ -1,0 +1,49 @@
+/* * {
+	background-color: brown;
+	color: #FFF;
+} */
+
+h1 {
+	font: 35px 'Roboto', sans-serif;
+	/* font-family:'Roboto', sans-serif;
+	font-size: 35px; */
+}
+
+p {
+	font-family:'Roboto', sans-serif;
+	font-style: italic;
+}
+
+p span {
+	font-weight: bold
+}
+
+.intro {
+	/* CLASS */
+	background-image: url(../img/csoding-job.png);
+	background-color: green;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+} 
+
+.text-white {
+	color:#FFF;
+}
+
+.intro h1 {
+	color:#FFF;
+	border:dotted;
+	border-color: red;
+	border-top: dotted;
+	border-bottom: double;
+	border-left: solid;
+	border-right: dashed;
+
+}
+
+.intro > p {
+	color:#FFF;
+	font-size:20px;
+}
+

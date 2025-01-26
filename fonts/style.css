@@ -1,0 +1,57 @@
+h1{
+	color: blueviolet;
+	background-color: tomato;
+	color: rgb(255, 255,255);
+	color: #ff0000;
+	color-scheme: light dark;
+}
+
+
+p{
+	color: #ff0000;
+}
+.font-family-example{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.font-size-example{
+	font-size: 20px;
+}
+
+/* Font Family */
+.font-family-example {
+	font-family: 'Arial', sans-serif;
+  }
+  
+  /* Font Size */
+  .font-size-example {
+	font-size: 24px;
+  }
+  
+  /* Font Style */
+  .font-style-example {
+	font-style: italic;
+  }
+  
+  /* Font Weight */
+  .font-weight-example {
+	font-weight: bold;
+  }
+  
+  /* Line Height */
+  .line-height-example {
+	line-height: 1.6;
+  }
+  
+  /* Font Variant */
+  .font-variant-example {
+	font-variant: small-caps;
+  }
+  
+  /* Combined Font Properties */
+  .combined-font-example {
+	font: italic bold 18px 'Times New Roman', serif;
+  }
+  .font-weight-example
+  {
+	font: 'times new roman', sans-serif bold 18vh;
+  }

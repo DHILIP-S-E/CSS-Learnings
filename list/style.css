@@ -1,0 +1,27 @@
+/* CSS Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+ul {
+  list-style-type: square;  /* Change bullet type */
+  padding-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+li:hover {
+  color: #4CAF50;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Bold Text */
+.bold {
+  font-weight: bold; /* Makes the text bold */
+}
+
+/* Italic Text */
+.italic {
+  font-style: italic; /* Makes the text italicized */
+}
+
+/* Underlined Text */
+.underline {
+  text-decoration: underline; /* Adds an underline */
+}
+
+/* Uppercase Text */
+.uppercase {
+  text-transform: uppercase; /* Converts text to uppercase */
+}
+
+/* Center-Aligned Text */
+.center {
+  text-align: center; /* Aligns text to the center */
+}
+
+/* Text Shadow */
+.shadow {
+  text-shadow: 2px 2px 5px #888; /* Adds a shadow effect */
+}
+
+/* Letter Spacing */
+.spacing {
+  letter-spacing: 2px; /* Adds space between letters */
+}

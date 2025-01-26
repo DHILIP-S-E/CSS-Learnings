@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* No Outline */
+.no-outline {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 10px auto;
+  border: 10px solid #de1616;
+}
+
+/* Simple Outline */
+.simple-outline {
+  background-color: #e7f3fe;
+  padding: 10px;
+  margin: 10px auto;
+  border: 10px solid #0099ff;
+  outline: 20px solid #000; /* Adds a black outline */
+}
+
+/* Dashed Outline */
+.dashed-outline {
+  background-color: #ffe4e1;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ff6347;
+  outline: 2px dashed #000; /* Adds a dashed black outline */
+}
+
+/* Colored Outline */
+.colored-outline {
+  background-color: #d3ffd3;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #32cd32;
+  outline: 3px solid #ff0000; /* Adds a red outline */
+}
+
+/* Outline with Offset */
+.offset-outline {
+  background-color: #fff9c4;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #ffeb3b;
+  outline: 3px solid #0000ff; /* Adds a blue outline */
+  outline-offset: 10px; /* Spaces the outline 10px away from the element */
+}

@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.icons {
+  margin: 10px 0;
+}
+
+/* Simple Icon Styles */
+.simple-icon {
+  font-size: 24px; /* Default icon size */
+  margin-right: 10px;
+}
+
+/* Styled Icons */
+.red-icon {
+  color: #e74c3c; /* Red color */
+  font-size: 30px; /* Larger size */
+}
+
+.yellow-icon {
+  color: #f1c40f; /* Yellow color */
+  font-size: 30px; /* Larger size */
+}
+
+.green-icon {
+  color: #2ecc71; /* Green color */
+  font-size: 30px; /* Larger size */
+}

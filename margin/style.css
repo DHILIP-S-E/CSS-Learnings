@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	/* padding: 20px; */
+	border: dotted 5px #ff0000;
+  }
+  
+  h1 {
+	margin-bottom: 30px;
+	border: solid 2px #ff0000;
+  }
+  .no
+  {
+	background-color: #ff0000;
+	border: solid 2px #ff0000;
+	padding: 10px;
+	margin: 0px;
+  }
+  .small
+  {
+	background-color: #3beb13;
+	border: solid 2px #ff0000;
+	padding: 10px;
+	margin: 10px ;
+  }
+  .big  {
+	background-color: #0011ff;
+	border: solid 2px #ff0000;
+	padding: 10px;
+	margin: 50px ;
+  }
+  .center {
+	background-color: #d3ffd3;
+	padding: 10px;
+	margin: 20px auto; /* Automatically centers the element horizontally */
+	border: 1px solid #32cd32;
+	width: 50%; /* Required for horizontal centering with auto margin */
+  }

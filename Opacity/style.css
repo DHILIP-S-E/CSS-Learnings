@@ -1,0 +1,26 @@
+/* Full opacity (1 means completely opaque) */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  opacity: 1;
+  margin: 20px;
+}
+
+/* Partial opacity (0.3 means 30% opacity) */
+.transparent-box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0.3;
+}

@@ -1,0 +1,26 @@
+/* ::before - Adds content before an element */
+h1::before {
+  content: "✨ ";
+  font-size: 30px;
+  color: gold;
+}
+
+/* ::after - Adds content after an element */
+h1::after {
+  content: " ✨";
+  font-size: 30px;
+  color: gold;
+}
+
+/* ::first-letter - Styles the first letter of an element */
+p::first-letter {
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+}
+
+/* ::first-line - Styles the first line of an element */
+p::first-line {
+  font-style: italic;
+  color: blue;
+}

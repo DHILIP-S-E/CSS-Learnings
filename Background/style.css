@@ -1,0 +1,33 @@
+/* Background with image and color fallback */
+body {
+	background-color: #f0f0f0; /* Fallback color if image doesn't load */
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY4EYBJdnabuSbsKOxUEYLv8pqeYXr5fJntw&s'); /* Background image */
+	background-size: cover; /* Ensure the background image covers the entire screen */
+	background-position: center; /* Center the background image */
+	background-repeat: no-repeat; /* Prevent the image from repeating */
+	color: white; /* Set text color for contrast */
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 50px;
+  }
+  
+  /* Styling for header */
+  h1 {
+	font-size: 3em;
+	margin: 20px 0;
+  }
+  
+  /* Styling for the paragraph */
+  p {
+	font-size: 1.2em;
+  }
+ h1 {
+	color:#FFF;
+	border:dotted;
+	border-color: red;
+	border-top: dotted;
+	border-bottom: double;
+	border-left: solid;
+	border-right: dashed;
+
+}
